@@ -24,11 +24,13 @@ if game==True:
                     response=input() 
                     if response=='yes':
                         print("You walk upstairs the house and notice the smell is coming from the upstairs bathroom. You walk into the bathroom and see a zombie in the bathroom. He jumps on you and begins to maul you")
+                        time.sleep(5)
                         print("You are dead")
                     elif response=='no':
                         print("You decide not to investigate the smell and you walk into the kitchen of the house. You open the pantry")
                         print("You take out a box of cheerios and pour it into a bowl. You pour milk into the bowl and grab a spoon.")
                         print("You take a spoonfull of cheerios into your mouth. All of a sudden, you feel nauseous and you fall to the floor")
+                        time.sleep(5)
                         print("You are dead.")
             elif response=='no':
                     print("You walk past the abandoned house and into a street. You walk down the street for about", '\n'
@@ -36,9 +38,11 @@ if game==True:
                     response=input()
                     if response=="yes":
                         print("You unlock your front door, walk in, and put your coat on the coat hanger. You take off your shoes and immediately walk up the stairs. You open your room door and then you crawl into your bed.")
+                        time.sleep(5)
                         print("Goodnight")
                     if response=="no":
                         print("You decide to walk past your home instead of going to bed. You continue walking down the same road you were already walking down. All of a sudden, you hear a honking sound. You turn around in a split second and see a red F150 with nitro turbo boosters and a can of nos in the back about to smack you at 90 mph. The truck hits you and you fly 60 feet into the air.")
+                        time.sleep(5)
                         print("You impact the ground. You are dead")
                     
                     
@@ -56,9 +60,11 @@ if game==True:
                     response=input()
                     if response=='yes':
                             print("You take the AK, load it, and put a round in the chamber. You walk to the address and kick the door down. You run upstairs and immediately notice an atrocious smell. You run to the bathroom, kick the door down, and spot a zombie in the bathroom. You immediately unload your drum magazine into the zombie, killing it")
+                            time.sleep(5)
                             print("You win!")
                     if response=='no':
                             print("You walk past the AK and instead call the police. When the police arrive, they order you to put your hands up. When you put your hands up, they shoot you anyway")
+                            time.sleep(5)
                             print("You are dead")
                     
             elif response=='no':
@@ -67,8 +73,12 @@ if game==True:
                     response=input()
                     if response=="yes":
                         print("You walk into the McDonald's and go to the front counter. You are greeted by a cashier named Felicia Bonquisha. She asks, 'what u finna eat.' You explain to her that you would like to have an ice cream cone. Felicia says, 'ice cream machine broke'. You then ask for her manager. Felicia responds with")
+                       
                         print(", 'manager machine broke'. At this point, you begin to boil with rage. You ball up your fist and punch Felicia in her face. She falls to the floor. You vault over the counter and steal 3 big macs and run out. As you are running out you hear someone yelling world star! in the back. You run home and sit on your front porch, eating the big macs, laughing about how you punched that thot in the face")
+                        time.sleep(5)
+                        print(".")
                     if response=="no":
                         print("You decide McDonald's isnt the wisest place to eat right now. You instead, walk to the nearby Jack in the Box for a nice munchy meal. As you are walking there, 3 men pull up in an all black cadillac and shoot you in the head")
+                        time.sleep(5)
                         print("You are dead")
         
